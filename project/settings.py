@@ -28,6 +28,10 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+#heroku
+import django_heroku
+django_heroku.settings(locals())
+
 
 # Application definition
 
